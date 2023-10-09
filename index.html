@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/mediascreen.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/image.css">
+        <link rel="stylesheet" href="css/content.css">
+        <link rel="stylesheet" href="css/home.css">
+
+        <script src="https://kit.fontawesome.com/2e9ce271b4.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="navigation-bar">
+                <div class="nav-title">
+                    <h1>JUDUL</h1>
+                </div>
+                <div class="nav-aboutUs">
+                    <a href="#aboutUs"><h1>About Us</h1></a>
+                </div>
+                <div class="nav-first">
+                    <button class="first-dropbtn" onclick="firstDropdown()">
+                        Bab I
+                    </button>
+                    <div class="first-content" id="nav-first-dropdown">
+                        <a href="">A. Latar Belakang</a>
+                        <a href="">B. Rumusan Masalah</a>
+                        <a href="">C. Tujuan Penelitian</a>
+                    </div>
+                </div>
+                <div class="nav-second">
+                    <a href="#"><h1>Bab II</h1></a>
+                </div>
+                <div class="nav-third">
+                    <a href="#"><h1>Bab III</h1></a>
+                </div>
+                <div class="nav-fourth">
+                    <a href="#"><h1>Bab IV</h1></a>
+                </div>
+                <div class="nav-fifth">
+                    <a href="#"><h1>Lampiran</h1></a>
+                </div>
+
+                <div id="hamburger-menu" class="hamburger-menu">
+                    <a href="javascript:void(0)" onclick="hamburgerMenu(); hamburgerMenuAnimation()">
+                        <i class="fa-solid fa-bars"></i>    
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div id="hamburger-content" class="hamburger-content">
+            <a href="#aboutUs" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-user-group"></i> Tentang Kami</h2>
+            </a>
+            <a onclick="bab1Dropdown()" href="#" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-one"></i> Bab I</h2>
+            </a>
+
+            <a href="" id="bab1-dropdown1">
+                <h3>A. Latar Belakang</h3>
+            </a>
+            <a href="" id="bab1-dropdown2">
+                <h3>B. Rumusan Masalah</h3>
+            </a>
+            <a href="" id="bab1-dropdown3">
+                <h3>C. Tujuan Penelitian</h3>
+            </a>
+
+            <a href="" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-two"></i> Bab II</h2>
+            </a>
+            <a href="" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-three"></i> Bab III</h2>
+            </a>
+            <a onclick="bab4Dropdown()" href="#" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-four"></i> Bab IV</h2>
+            </a>
+
+            <a href="" id="bab4-dropdown1">
+                <h3>A. Latar Belakang</h3>
+            </a>
+            <a href="" id="bab4-dropdown2">
+                <h3>B. Rumusan Masalah</h3>
+            </a>
+            <a href="" id="bab4-dropdown3">
+                <h3>C. Tujuan Penelitian</h3>
+            </a>
+
+            <a href="" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-file-zipper"></i> Lampiran</h2>
+            </a>
+        </div>
+        <main>
+            <div class="main-img">
+                <img src="asset/hidroponik.jpeg">
+                <div class="main-img-text">
+                    <h1 id="aquaColor">AQUA</h1>
+                    <h1>MOEA</h1>
+                </div>
+            </div>
+            <div class="home-content">
+                <div class="guru-pembimbing">
+                    <h2>Guru Pembimbing</h2>
+                    <div class="wrapper-guru">
+                        <div class="guru-1">
+                            <div class="guru-img">
+                                <img src="asset/fransiska.jpg">
+                            </div>
+                            <div class="guru-caption">
+                                <h3>Fransiska R, S.Si.</h3>
+                                <h4>Bidang Biologi</h4>
+                            </div>
+                        </div>
+                        <div class="guru-2">
+                            <div class="guru-img">
+                                <img src="asset/nuri.jpg">
+                            </div>
+                            <div class="guru-caption">
+                                <h3>Nuri Simarona, S.T.</h3>
+                                <h4>Bidang Fisika</h4>
+                            </div>
+                        </div>
+                        <div class="guru-3">
+                            <div class="guru-img">
+                                <img src="asset/irena.jpg">
+                            </div>
+                            <div class="guru-caption">
+                                <h3>Irena Titin, S.Pd.</h3>
+                                <h4>Bidang Fisika</h4>
+                            </div>
+                        </div>
+                        <div class="guru-4">
+                            <div class="guru-img">
+                                <img src="asset/wadas.jpg">
+                            </div>
+                            <div class="guru-caption">
+                                <h3>FX W. Wadas H, S.Si.</h3>
+                                <h4>Bidang Kimia</h4>
+                            </div>
+                        </div>
+                        <div class="guru-5">
+                            <div class="guru-img">
+                                <img src="asset/berliana.jpg">
+                            </div>
+                            <div class="guru-caption">
+                                <h3>Berliana, S.Pd.</h3>
+                                <h4>Bidang Kimia</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="anggota-kelompok" id="aboutUs">
+                    <h2>Our Team</h2>
+                    <div class="wrapper-anggota">
+                        <div class="anggota-1">
+                            <div class="anggota-img1">
+                                <img src="https://i.pinimg.com/236x/56/2e/be/562ebed9cd49b9a09baa35eddfe86b00.jpg">
+                            </div>
+                            <div class="anggota-caption">
+                                <h3>Chilwin</h3>
+                                <h4>NIS: 2021...</h4>
+                            </div>
+                        </div>
+                        <div class="anggota-2">
+                            <div class="anggota-img2">
+                                <img src="https://i.pinimg.com/236x/56/2e/be/562ebed9cd49b9a09baa35eddfe86b00.jpg">
+                            </div>
+                            <div class="anggota-caption">
+                                <h3>Edwin Hermili</h3>
+                                <h4>NIS: 2021060</h4>
+                            </div>
+                        </div>
+                        <div class="anggota-3">
+                            <div class="anggota-img3">
+                                <img src="https://i.pinimg.com/236x/56/2e/be/562ebed9cd49b9a09baa35eddfe86b00.jpg">
+                            </div>
+                            <div class="anggota-caption">
+                                <h3>Jocelyn Chow</h3>
+                                <h4>NIS: 2021011</h4>
+                            </div>
+                        </div>
+                        <div class="anggota-4">
+                            <div class="anggota-img4">
+                                <img src="https://i.pinimg.com/236x/56/2e/be/562ebed9cd49b9a09baa35eddfe86b00.jpg">
+                            </div>
+                            <div class="anggota-caption">
+                                <h3>Vincent Jonathan</h3>
+                                <h4>NIS: 2021...</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                Kelompok IV - XII.MIPA.2
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

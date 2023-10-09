@@ -1,0 +1,105 @@
+.guru-pembimbing {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.guru-caption h3 {
+    margin: 4px 0;
+}
+
+.guru-caption h4 {
+    margin: 4px 0;
+}
+
+.guru-img img {
+    max-width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.wrapper-guru {
+    flex-direction: row;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.wrapper-anggota {
+    flex-direction: row;
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.anggota-kelompok {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.anggota-img1 img,
+.anggota-img2 img,
+.anggota-img3 img,
+.anggota-img4 img {
+    max-width: 175px;
+    max-height: 175px;
+    margin: auto;
+}
+
+.anggota-img1,
+.anggota-img2,
+.anggota-img3,
+.anggota-img4 {
+    position: relative; /* Make the container position relative */
+    display: inline-block; /* Display as inline block to fit the content */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.anggota-img1::before,
+.anggota-img2::before,
+.anggota-img3::before,
+.anggota-img4::before {
+    width: 50px; /* Adjust the width and height to control the size of the circle */
+    height: 50px;
+    border-radius: 50%; /* Create a circle */
+    position: absolute; /* Position the circle absolutely */
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #b8b8b8;
+    text-shadow: 3px 3px 2px rgba(124, 128, 124, 1);
+    font-weight: 600;
+}
+
+.anggota-img1::before {
+    content: '03';
+}
+.anggota-img2::before {
+    content: '06';
+}
+.anggota-img3::before {
+    content: '14';
+}
+.anggota-img4::before {
+    content: '33';
+}
+
+
+.anggota-caption h3 {
+    margin: 4px 0;
+}
+
+.anggota-caption h4 {
+    margin: 4px 0;
+}
