@@ -14,14 +14,19 @@
     text-shadow: 2px 2px 3px rgba(33, 31, 32, 1);
 }
 
+.nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav-title {
     height: 100%;
     float: left;
-    font-size: large;
 }
 
-.nav-title h1 {
-    padding: 18px 24px;
+.nav-title img {
+    width: 48px;
 }
 
 .navigation-bar h1 {
@@ -29,6 +34,7 @@
 }
 
 /* NAVIGATION CONTENT */
+.nav-title2,
 .nav-aboutUs,
 .nav-first,
 .nav-second,
@@ -62,8 +68,10 @@
     text-shadow: 2px 2px 3px rgba(33, 31, 32, 1);
 }
 
+.nav-title2 h1,
 .nav-aboutUs h1,
 .first-dropbtn,
+.fourth-dropbtn,
 .nav-second h1,
 .nav-third h1,
 .nav-fourth h1,
@@ -210,4 +218,35 @@
 
 .show {
     display: block;
+}
+
+.fourth-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.fourth-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 160px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 1;
+}
+
+.fourth-dropbtn {
+    outline: none;
+    border: none;
+    background-color: #202020;
+    cursor: pointer;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    box-sizing: content-box;
+}
+
+.fourth-dropbtn:hover {
+    background-color: #121212;
 }

@@ -67,17 +67,23 @@ function hamburgerMenu() {
   function firstDropdown() {
     document.getElementById("nav-first-dropdown").classList.toggle("show");
   }
+
+  function fourthDropdown() {
+    document.getElementById("nav-fourth-dropdown").classList.toggle("show");
+  }
+
   
-  // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.first-dropbtn')) {
-      var dropdowns = document.getElementsByClassName("first-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
+    var myDropdown = document.getElementById("nav-first-dropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
       }
     }
+    if (!event.target.matches('.fourth-dropbtn')) {
+      var myDropdown = document.getElementById("nav-fourth-dropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
   }

@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
         <link rel="stylesheet" href="css/mediascreen.css">
         <link rel="stylesheet" href="css/navigation.css">
         <link rel="stylesheet" href="css/main.css">
@@ -14,9 +15,16 @@
     <body>
         <nav>
             <div class="navigation-bar">
-                <div class="nav-title">
-                    <h1>JUDUL</h1>
+                <div class="nav-wrap">
+                    <div class="nav-title">
+                        <img src="asset/petrus.png">
+                    </div>
+                    <div class="nav-title2">
+                        <h1>Kelompok IV - XIIA2</h1>
+                    </div>
                 </div>
+
+                <div>
                 <div class="nav-aboutUs">
                     <a href="#aboutUs"><h1>About Us</h1></a>
                 </div>
@@ -37,10 +45,18 @@
                     <a href="#"><h1>Bab III</h1></a>
                 </div>
                 <div class="nav-fourth">
-                    <a href="#"><h1>Bab IV</h1></a>
+                    <button class="fourth-dropbtn" onclick="fourthDropdown()">
+                        Bab IV
+                    </button>
+                    <div class="fourth-content" id="nav-fourth-dropdown">
+                        <a href="">A. Latar Belakang</a>
+                        <a href="">B. Rumusan Masalah</a>
+                        <a href="">C. Tujuan Penelitian</a>
+                    </div>
                 </div>
                 <div class="nav-fifth">
                     <a href="#"><h1>Lampiran</h1></a>
+                </div>
                 </div>
 
                 <div id="hamburger-menu" class="hamburger-menu">
@@ -110,7 +126,7 @@
                             </div>
                             <div class="guru-caption">
                                 <h3>Fransiska R, S.Si.</h3>
-                                <h4>Bidang Biologi</h4>
+                                <h4 class="bidang-biologi">Bidang Biologi</h4>
                             </div>
                         </div>
                         <div class="guru-2">
@@ -119,7 +135,7 @@
                             </div>
                             <div class="guru-caption">
                                 <h3>Nuri Simarona, S.T.</h3>
-                                <h4>Bidang Fisika</h4>
+                                <h4 class="bidang-fisika">Bidang Fisika</h4>
                             </div>
                         </div>
                         <div class="guru-3">
@@ -128,7 +144,7 @@
                             </div>
                             <div class="guru-caption">
                                 <h3>Irena Titin, S.Pd.</h3>
-                                <h4>Bidang Fisika</h4>
+                                <h4 class="bidang-fisika">Bidang Fisika</h4>
                             </div>
                         </div>
                         <div class="guru-4">
@@ -137,7 +153,7 @@
                             </div>
                             <div class="guru-caption">
                                 <h3>FX W. Wadas H, S.Si.</h3>
-                                <h4>Bidang Kimia</h4>
+                                <h4 class="bidang-kimia">Bidang Kimia</h4>
                             </div>
                         </div>
                         <div class="guru-5">
@@ -146,7 +162,7 @@
                             </div>
                             <div class="guru-caption">
                                 <h3>Berliana, S.Pd.</h3>
-                                <h4>Bidang Kimia</h4>
+                                <h4 class="bidang-kimia">Bidang Kimia</h4>
                             </div>
                         </div>
                     </div>
@@ -160,7 +176,7 @@
                             </div>
                             <div class="anggota-caption">
                                 <h3>Chilwin</h3>
-                                <h4>NIS: 2021...</h4>
+                                <h4>NIS: 2021160</h4>
                             </div>
                         </div>
                         <div class="anggota-2">
@@ -187,7 +203,7 @@
                             </div>
                             <div class="anggota-caption">
                                 <h3>Vincent Jonathan</h3>
-                                <h4>NIS: 2021...</h4>
+                                <h4>NIS: 2021049</h4>
                             </div>
                         </div>
                     </div>

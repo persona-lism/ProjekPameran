@@ -10,10 +10,22 @@
     .hamburger-menu {
         display: flex;
     }
+    .main-img-text {
+        font-size: 6vw;
+    }
+    .nav-title2 h1 {
+        display: flex;
+    }
 }
 
 @media (width >= 1029px) {
     .hamburger-menu {
+        display: none;
+    }
+    .main-img-text {
+        font-size: 4.5vw;
+    }
+    .nav-title2 h1 {
         display: none;
     }
 }
