@@ -31,10 +31,10 @@
 
 .navigation-bar h1 {
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* NAVIGATION CONTENT */
-.nav-title2,
 .nav-aboutUs,
 .nav-first,
 .nav-second,
@@ -43,6 +43,12 @@
 .nav-fifth {
     height: 100%;
     font-size: large;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-title2 {
+    height: 100%;
     display: inline-block;
     position: relative;
 }
@@ -62,6 +68,7 @@
 .nav-third a,
 .nav-fourth a,
 .nav-fifth a {
+    font-family: 'Times New Roman', Times, serif;
     display: block;
     text-decoration: none;
     color: white;
@@ -76,6 +83,7 @@
 .nav-third h1,
 .nav-fourth h1,
 .nav-fifth h1 {
+    font-family: 'Times New Roman', Times, serif;
     padding: 18px 24px;
 }
 
@@ -136,6 +144,7 @@
     text-decoration: none;
     color: white;
     transition: .2s ease-in-out;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hamburger-content a:hover {
@@ -144,6 +153,7 @@
 
 #hamburger-content-a h2 {
     margin: 12px 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hamburger-menu i:active {
@@ -165,6 +175,7 @@
 #bab1-dropdown2 h3,
 #bab1-dropdown3 h3 {
     margin: 8px 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #bab4-dropdown1,
@@ -196,7 +207,7 @@
     display: none;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    min-width: 160px;
+    min-width: 230px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     z-index: 1;
 }
@@ -210,6 +221,10 @@
     font-size: 27px;
     font-weight: bold;
     box-sizing: content-box;
+}
+
+.first-dropbtn::after {
+    content: "";
 }
 
 .first-dropbtn:hover {
@@ -231,7 +246,7 @@
     display: none;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    min-width: 160px;
+    min-width: 200px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     z-index: 1;
 }
