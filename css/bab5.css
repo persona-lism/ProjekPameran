@@ -1,0 +1,33 @@
+.kesimpulan-saran {
+    padding: 12px 12vw;
+    display: flex;
+    justify-content: center;
+    gap: 16px; 
+}
+
+.kesimpulan-icon i,
+.saran-icon i {
+    font-size: 5rem;
+}
+
+.kesimpulan-icon,
+.saran-icon {
+    border-radius: 50%;
+    border: 4px black solid;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    margin: auto;
+    padding: 4px;
+}
+
+.kesimpulan-content p,
+.saran-content p {
+    text-align: center;
+}

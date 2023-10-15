@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
+        <link rel="stylesheet" href="css/mediascreen.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/image.css">
+        <link rel="stylesheet" href="css/content.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/bab5.css">
+
+        <script src="https://kit.fontawesome.com/2e9ce271b4.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="navigation-bar">
+                <div class="nav-wrap">
+                    <div class="nav-title">
+                        <img src="asset/petrus.png">
+                    </div>
+                    <div class="nav-title2">
+                        <h1>K4 - 12.MIPA.2</h1>
+                    </div>
+                </div>
+
+                <div>
+                <div class="nav-aboutUs">
+                    <a href="#aboutUs"><h1>About Us</h1></a>
+                </div>
+                <div class="nav-first">
+                    <button class="first-dropbtn" onclick="firstDropdown()">
+                        Bab I
+                    </button>
+                    <div class="first-content" id="nav-first-dropdown">
+                        <a href="latarbelakang.html">A. Latar Belakang</a>
+                        <a href="rumusanmasalah.html">B. Rumusan Masalah</a>
+                        <a href="tujuanpenelitian.html">C. Tujuan Penelitian</a>
+                    </div>
+                </div>
+                <div class="nav-second">
+                    <a href="landasanteori.html"><h1>Bab II</h1></a>
+                </div>
+                <div class="nav-third">
+                    <a href="metodepenelitian.html"><h1>Bab III</h1></a>
+                </div>
+                <div class="nav-fourth">
+                    <button class="fourth-dropbtn" onclick="fourthDropdown()">
+                        Bab IV
+                    </button>
+                    <div class="fourth-content" id="nav-fourth-dropdown">
+                        <a href="">A. Hasil Penelitian</a>
+                        <a href="">B. Pembahasan</a>
+                    </div>
+                </div>
+                <div class="nav-fifth">
+                    <a href="#"><h1>Lampiran</h1></a>
+                </div>
+                </div>
+
+                <div id="hamburger-menu" class="hamburger-menu">
+                    <a href="javascript:void(0)" onclick="hamburgerMenu(); hamburgerMenuAnimation()">
+                        <i class="fa-solid fa-bars"></i>    
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div id="hamburger-content" class="hamburger-content">
+            <a href="#aboutUs" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-user-group"></i> Tentang Kami</h2>
+            </a>
+            <a onclick="bab1Dropdown()" href="#" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-one"></i> Bab I</h2>
+            </a>
+
+            <a href="latarbelakang.html" id="bab1-dropdown1">
+                <h3>A. Latar Belakang</h3>
+            </a>
+            <a href="rumusanmasalah.html" id="bab1-dropdown2">
+                <h3>B. Rumusan Masalah</h3>
+            </a>
+            <a href="tujuanpenelitian.html" id="bab1-dropdown3">
+                <h3>C. Tujuan Penelitian</h3>
+            </a>
+
+            <a href="landasanteori.html" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-two"></i> Bab II</h2>
+            </a>
+            <a href="metodepenelitian.html" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-three"></i> Bab III</h2>
+            </a>
+            <a onclick="bab4Dropdown()" href="#" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-four"></i> Bab IV</h2>
+            </a>
+
+            <a href="" id="bab4-dropdown1">
+                <h3>A. Hasil Penelitian</h3>
+            </a>
+            <a href="" id="bab4-dropdown2">
+                <h3>B. Pembahasan</h3>
+            </a>
+
+            <a href="" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-file-zipper"></i> Lampiran</h2>
+            </a>
+        </div>
+        <main>
+            <div class="main-img">
+                <img src="asset/hidroponik.jpeg">
+                <div class="main-img-text">
+                    <h1 id="aquaColor">AQUA</h1>
+                    <h1>MOEA</h1>
+                </div>
+            </div>
+            <div class="kesimpulan-saran">
+                <div class="kesimpulan-content">
+                    <div class="kesimpulan">
+                        <div class="kesimpulan-icon">
+                            <i class="fa-regular fa-lightbulb"></i>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est corrupti architecto vitae at, non omnis ab earum rem provident praesentium dolorum. Adipisci, dolores cum?</p>
+                </div>
+                <div class="saran-content">
+                    <div class="saran">
+                        <div class="saran-icon">
+                            <i class="fa-regular fa-comment"></i>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est corrupti architecto vitae at, non omnis ab earum rem provident praesentium dolorum. Adipisci, dolores cum?</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                Kelompok IV - XII.MIPA.2
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
