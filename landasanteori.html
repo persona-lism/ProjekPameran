@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/image.css">
         <link rel="stylesheet" href="css/content.css">
         <link rel="stylesheet" href="css/home.css">
-        <link rel="stylesheet" href="css/rumusanmasalah.css">
+        <link rel="stylesheet" href="css/tujuanpenelitian.css">
 
         <script src="https://kit.fontawesome.com/2e9ce271b4.js" crossorigin="anonymous"></script>
     </head>
@@ -73,7 +73,6 @@
             <a onclick="bab1Dropdown()" href="#" id="hamburger-content-a">
                 <h2><i class="fa-solid fa-dice-one"></i> Bab I</h2>
             </a>
-
             <a href="latarbelakang.html" id="bab1-dropdown1">
                 <h3>A. Latar Belakang</h3>
             </a>
@@ -113,25 +112,44 @@
                     <h1>MOEA</h1>
                 </div>
             </div>
-            <div class="rumusanmasalah-content">
-                <div class="rumusan-masalah">
-                    <h2>Rumusan Masalah</h2>
+            
+            <div class="tujuanpenelitian-content">
+                <div class="landasanteori">
+                    <h2>Landasan Teori</h2>
                 </div>
-                <div class="rumusan-masalah-3">
-                    <div class="bidang-biologi-rumusan">
-                        <h3>Bidang Biologi</h3>
-                        <li>Rumusan masalah 1</li>
-                        <li>Rumusan masalah 2</li>
+                <div class="aspek-biologi">
+                    <div class="aspek-biologi-header" onclick="aspekAnimation1(); aspekDisplay1()">
+                        <h2>Aspek Biologi</h2>
+                        <i class="fa-solid fa-chevron-down" id="aspek-dropdown1"></i>
                     </div>
-                    <div class="bidang-fisika-rumusan">
-                        <h3>Bidang Fisika</h3>
-                        <li>Rumusan masalah 1</li>
-                        <li>Rumusan masalah 2</li>
+                    <div class="aspek-biologi-caption" id="aspek-biologi-caption">
+                        <h3>I. Kangkung</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, vero. Asperiores culpa vel assumenda iure beatae facilis, rem commodi, nihil, sequi repellendus qui odit nesciunt.</p>
+                        <h3>II. Pertumbuhan</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, vero. Asperiores culpa vel assumenda iure beatae facilis, rem commodi, nihil, sequi repellendus qui odit nesciunt.</p>
+                        <h3>III. Perkembangan</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, vero. Asperiores culpa vel assumenda iure beatae facilis, rem commodi, nihil, sequi repellendus qui odit nesciunt.</p>
+
                     </div>
-                    <div class="bidang-kimia-rumusan">
-                        <h3>Bidang Kimia</h3>
-                        <li>Rumusan masalah 1</li>
-                        <li>Rumusan masalah 2</li>
+                </div>
+                <div class="aspek-fisika" onclick="aspekAnimation2(); aspekDisplay2()">
+                    <div class="aspek-fisika-header">
+                        <h2>Aspek Fisika</h2>
+                        <i class="fa-solid fa-chevron-down" id="aspek-dropdown2"></i>
+                    </div>
+                    <div class="aspek-fisika-caption" id="aspek-fisika-caption">
+                        <h3>I. Kangkung</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, vero. Asperiores culpa vel assumenda iure beatae facilis, rem commodi, nihil, sequi repellendus qui odit nesciunt.</p>
+                    </div>
+                </div>
+                <div class="aspek-kimia" onclick="aspekAnimation3(); aspekDisplay3()">
+                    <div class="aspek-kimia-header">
+                        <h2>Aspek Kimia</h2>
+                        <i class="fa-solid fa-chevron-down" id="aspek-dropdown3"></i>
+                    </div>
+                    <div class="aspek-kimia-caption" id="aspek-kimia-caption">
+                        <h3>I. Kangkung</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, vero. Asperiores culpa vel assumenda iure beatae facilis, rem commodi, nihil, sequi repellendus qui odit nesciunt.</p>
                     </div>
                 </div>
             </div>
