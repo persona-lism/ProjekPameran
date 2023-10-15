@@ -7,6 +7,57 @@ function hamburgerMenu() {
     }
   }
 
+  function aspekAnimation1() {
+    var animation = document.getElementById("aspek-dropdown1");
+    if(animation.style.transform === "none") {
+      animation.style.transform = "rotate(-90deg)";
+    } else {
+      animation.style.transform = "none";
+    }
+  }
+  function aspekAnimation2() {
+    var animation = document.getElementById("aspek-dropdown2");
+    if(animation.style.transform === "none") {
+      animation.style.transform = "rotate(-90deg)";
+    } else {
+      animation.style.transform = "none";
+    }
+  }
+  function aspekAnimation3() {
+    var animation = document.getElementById("aspek-dropdown3");
+    if(animation.style.transform === "none") {
+      animation.style.transform = "rotate(-90deg)";
+    } else {
+      animation.style.transform = "none";
+    }
+  }
+
+  function aspekDisplay1() {
+    var display = document.getElementById("aspek-biologi-caption");
+    if(display.style.display === "none") {
+      display.style.display = "block";
+    } else {
+      display.style.display = "none";
+    }
+  }
+  function aspekDisplay2() {
+    var display = document.getElementById("aspek-fisika-caption");
+    if(display.style.display === "none") {
+      display.style.display = "block";
+    } else {
+      display.style.display = "none";
+    }
+  }
+
+  function aspekDisplay3() {
+    var display = document.getElementById("aspek-kimia-caption");
+    if(display.style.display === "none") {
+      display.style.display = "block";
+    } else {
+      display.style.display = "none";
+    }
+  }
+
   function hamburgerMenuAnimation() {
     var animation = document.getElementById("hamburger-menu");
     if (animation.style.transform === "matrix(0, 1, 1, 0, 0, 0)") {

@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     padding: 12px 10vw;
-
 }
 
 .rumusan-masalah-3 {
@@ -46,4 +45,41 @@
 .bidang-kimia-rumusan li,
 .bidang-biologi-rumusan li {
     margin: 8px 0;
+}
+
+.manfaatproyek-content {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 10vw;
+}
+
+.manfaat-proyek {
+    text-align: center;
+}
+
+.manfaat-proyek1,
+.manfaat-proyek2,
+.manfaat-proyek3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.manfaatproyek-caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.manfaatproyek-caption h2,
+.manfaatproyek-caption p {
+    margin: 0;
+}
+
+.manfaatproyek-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
 }
