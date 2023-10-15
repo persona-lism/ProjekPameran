@@ -1,0 +1,82 @@
+.metodepenelitian-content {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 8vw;
+    gap: 16px;
+}
+
+.metodepenelitian {
+    text-align: center;
+}
+
+.metodepenelitian-gambar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    column-count: 2;
+    padding: 8px 10vw;
+}
+
+.metodepenelitian-gambar img {
+    width: 100%;
+    height: 100%;
+    image-rendering: optimizeQuality;
+    margin: auto;
+}
+
+.penjelasan-penelitian {
+    text-align: left;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+}
+
+.dokumentasi-penelitian {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.penjelasan-penelitian {
+    width: 50%;
+}
+
+.penjelasan-penelitian p {
+    margin: 0;
+}
+
+.penjelasan-penelitian h3 {
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.penjelasan-penelitian p {
+    padding: 4px 8px;
+}
+
+.penjelasan-penelitian h3 {
+    font-weight: bold;
+    padding: 4px 8px;
+}
+
+.table-jenis1, td {
+    border-collapse: collapse;
+    outline: none;
+    border: none;
+}
+
+.table-jenis1 {
+    width: 100%;
+    height: 100%;
+}
+
+.table-jenis1 td {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}

@@ -47,6 +47,9 @@
     .aspek-kimia-caption p {
         font-size: small;
     }
+    .penjelasan-penelitian h3, p {
+        font-size: small;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -65,6 +68,9 @@
     .aspek-fisika-caption p,
     .aspek-kimia-caption h3,
     .aspek-kimia-caption p {
+        font-size: medium;
+    }
+    .penjelasan-penelitian h3, p {
         font-size: medium;
     }
 }
@@ -87,6 +93,9 @@
     .aspek-kimia-caption p {
         font-size: medium;
     }
+    .penjelasan-penelitian h3, p {
+        font-size: medium;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -107,6 +116,9 @@
     .aspek-kimia-caption p {
         font-size: large;
     }
+    .penjelasan-penelitian h3, p {
+        font-size: large;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -125,6 +137,9 @@
     .aspek-fisika-caption p,
     .aspek-kimia-caption h3,
     .aspek-kimia-caption p {
+        font-size: large;
+    }
+    .penjelasan-penelitian h3, p {
         font-size: large;
     }
 }
