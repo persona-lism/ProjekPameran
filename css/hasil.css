@@ -1,0 +1,12 @@
+.pembahasan-content {
+    margin: 0;
+    padding: 12px 12vw;
+}
+
+.pembahasan {
+    text-align: center;
+}
+
+* {
+    border: 1px black solid;
+}

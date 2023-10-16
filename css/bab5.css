@@ -8,12 +8,13 @@
 .kesimpulan-icon i,
 .saran-icon i {
     font-size: 5rem;
+    color: #AF9353;
 }
 
 .kesimpulan-icon,
 .saran-icon {
     border-radius: 50%;
-    border: 4px black solid;
+    border: 4px #AF9353 solid;
     width: 100px;
     height: 100px;
     text-align: center;

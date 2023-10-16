@@ -33,7 +33,7 @@
 @media only screen and (max-width: 600px) {
     .kotak-proyek {
         padding: 16px;
-        background-color: grey;
+        background-color: #AF9353;
         font-size: 20px;
         margin: 0 8px;
     }
@@ -50,13 +50,19 @@
     .penjelasan-penelitian h3, p {
         font-size: small;
     }
+    .lampiran-showcase a {
+        padding: 8px;
+    }
+    .latar-belakang p {
+        font-size: small;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .kotak-proyek {
         padding: 20px;
-        background-color: grey;
+        background-color: #AF9353;
         font-size: 20px;
         margin: 0 10px;
     }
@@ -73,13 +79,19 @@
     .penjelasan-penelitian h3, p {
         font-size: medium;
     }
+    .lampiran-showcase a {
+        padding: 12px;
+    }
+    .latar-belakang p {
+        font-size: medium;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .kotak-proyek {
         padding: 24px;
-        background-color: grey;
+        background-color: #AF9353;
         font-size: 22px;
         margin: 0 10px;
     }
@@ -96,13 +108,19 @@
     .penjelasan-penelitian h3, p {
         font-size: medium;
     }
+    .lampiran-showcase a {
+        padding: 12px;
+    }
+    .latar-belakang p {
+        font-size: medium;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .kotak-proyek {
         padding: 28px;
-        background-color: grey;
+        background-color: #AF9353;
         font-size: 22px;
         margin: 0 12px;
     }
@@ -119,13 +137,19 @@
     .penjelasan-penelitian h3, p {
         font-size: large;
     }
+    .lampiran-showcase a {
+        padding: 16px;
+    }
+    .latar-belakang p {
+        font-size: large;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .kotak-proyek {
         padding: 32px;
-        background-color: grey;
+        background-color: #AF9353;
         font-size: 24px;
         margin: 0 12px;
     }
@@ -140,6 +164,12 @@
         font-size: large;
     }
     .penjelasan-penelitian h3, p {
+        font-size: large;
+    }
+    .lampiran-showcase a {
+        padding: 16px;
+    }
+    .latar-belakang p {
         font-size: large;
     }
 }

@@ -17,28 +17,34 @@
     text-align: center;
 }
 
-.bidang-biologi-rumusan {
-    color: #28a745;
+.bidang-biologi-rumusan,
+.tujuan-penelitian-proyek1 {
+    color: white;
     text-align: center;
     width: 250px;
-    background-color: #202020;
+    background-color: #AF9353;
     padding-bottom: 12px;
+    text-shadow: 2px 2px 3px rgba(33, 31, 32, 1);
 }
 
-.bidang-fisika-rumusan {
-    color: #5bc0de;
+.bidang-fisika-rumusan,
+.tujuan-penelitian-proyek2 {
+    color: white;
     text-align: center;
     width: 250px;
-    background-color: #202020;
+    background-color: #7E7F4D;
     padding-bottom: 12px;
+    text-shadow: 2px 2px 3px rgba(33, 31, 32, 1);
 }
 
-.bidang-kimia-rumusan {
-    color: #a36de8;
+.bidang-kimia-rumusan,
+.tujuan-penelitian-proyek3 {
+    color: white;
     text-align: center;
     width: 250px;
-    background-color: #202020;
+    background-color: #AF9353;
     padding-bottom: 12px;
+    text-shadow: 2px 2px 3px rgba(33, 31, 32, 1);
 }
 
 .bidang-fisika-rumusan li,
