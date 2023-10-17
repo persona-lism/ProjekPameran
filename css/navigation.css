@@ -1,7 +1,7 @@
 /* * {border: 1px black solid;} */
 
 .navigation-bar {
-    background-color: #202020;
+    background-color: #AF9353;
     color: white;
     top: 0;
     left: 0;
@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    text-shadow: 2px 2px 3px rgba(33, 31, 32, 1);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
 }
 
 .nav-wrap {
@@ -40,9 +40,10 @@
 .nav-second,
 .nav-third,
 .nav-fourth,
-.nav-fifth {
+.nav-fifth,
+.nav-sixth {
     height: 100%;
-    font-size: large;
+    font-size: small;
     display: inline-block;
     position: relative;
 }
@@ -58,8 +59,9 @@
 .nav-second:hover,
 .nav-third:hover,
 .nav-fourth:hover,
-.nav-fifth:hover {
-    background-color: #121212;
+.nav-fifth:hover,
+.nav-sixth:hover {
+    background-color: #daa520;
 }
 
 .nav-aboutUs a,
@@ -67,12 +69,13 @@
 .nav-second a,
 .nav-third a,
 .nav-fourth a,
-.nav-fifth a {
+.nav-fifth a,
+.nav-sixth a {
     font-family: 'Times New Roman', Times, serif;
     display: block;
     text-decoration: none;
     color: white;
-    text-shadow: 2px 2px 3px rgba(33, 31, 32, 1);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
 }
 
 .nav-title2 h1,
@@ -82,9 +85,11 @@
 .nav-second h1,
 .nav-third h1,
 .nav-fourth h1,
-.nav-fifth h1 {
+.nav-fifth h1,
+.nav-sixth h1 {
     font-family: 'Times New Roman', Times, serif;
     padding: 18px 24px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
 }
 
 .hamburger-menu {
@@ -108,9 +113,9 @@
     top: 0;
     left: 0;
     flex-direction: column;
-    background-color: #333;
+    background-color: #e0c37d;
     animation: opacity .2s ease;
-    text-shadow: 2px 2px 3px rgba(33, 31, 32, 1);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
 }
 
 .hamburger-content i {
@@ -195,7 +200,6 @@
     margin: 8px 0;
 }
 
-
 .first-content a {
     color: white;
     padding: 12px 16px;
@@ -215,10 +219,10 @@
 .first-dropbtn {
     outline: none;
     border: none;
-    background-color: #202020;
+    background-color: #AF9353;
     cursor: pointer;
     color: white;
-    font-size: 27px;
+    font-size: 18px;
     font-weight: bold;
     box-sizing: content-box;
 }
@@ -228,7 +232,7 @@
 }
 
 .first-dropbtn:hover {
-    background-color: #121212;
+    background-color: #daa520;
 }
 
 .show {
@@ -254,14 +258,14 @@
 .fourth-dropbtn {
     outline: none;
     border: none;
-    background-color: #202020;
+    background-color: #AF9353;
     cursor: pointer;
     color: white;
-    font-size: 27px;
+    font-size: 18px;
     font-weight: bold;
     box-sizing: content-box;
 }
 
 .fourth-dropbtn:hover {
-    background-color: #121212;
+    background-color: #daa520;
 }

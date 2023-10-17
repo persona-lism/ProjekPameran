@@ -11,10 +11,12 @@
     top: 50%;
     left: 50%;
     color: white;
-    text-shadow: 2.5px 2.5px 2.5px black;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4);
     flex-wrap: nowrap;
     display: flex;
     max-width: 100%;
+    letter-spacing: 0.25vw;
+    font-family: oswald;
 }
 
 .main-img {
@@ -23,5 +25,9 @@
 }
 
 #aquaColor {
-    color: #38B6FF;
+    color: white;
+}
+
+#brownColor {
+    color: #AF9353;
 }

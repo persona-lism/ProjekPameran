@@ -10,73 +10,62 @@
     text-align: center;
 }
 
-.metodepenelitian-gambar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
-    column-count: 2;
-    padding: 8px 10vw;
-}
 
-.metodepenelitian-gambar img {
-    width: 100%;
-    height: 100%;
-    image-rendering: optimizeQuality;
-    margin: auto;
-}
-
-.penjelasan-penelitian {
-    text-align: left;
-    word-wrap: break-word;
+.mtdpenelitian {
     display: flex;
     flex-direction: column;
+    gap: 32px;
+    margin: 2rem 0;
 }
 
-.dokumentasi-penelitian {
-    width: 50%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.penjelasan-penelitian {
-    width: 50%;
-}
-
-.penjelasan-penelitian p {
+.mtdpenelitian-img img {
+    max-width: 275px;
+    width: 100%;
     margin: 0;
 }
 
-.penjelasan-penelitian h3 {
-    margin-top: 8px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+.mtdpenelitian {
+    background-color: #AF9353;
 }
 
-.penjelasan-penelitian p {
-    padding: 4px 8px;
-}
-
-.penjelasan-penelitian h3 {
-    font-weight: bold;
-    padding: 4px 8px;
-}
-
-.table-jenis1, td {
-    border-collapse: collapse;
-    outline: none;
-    border: none;
-}
-
-.table-jenis1 {
-    width: 100%;
-    height: 100%;
-}
-
-.table-jenis1 td {
-    width: 100%;
-    height: 100%;
+.mtdpenelitian-object {
     display: flex;
+    gap: 2rem;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 12vw;
+}
+
+.mtdpenelitian-object p {
+    margin: 4px 0;
+}
+
+.mtdpenelitian-object h3 {
+    margin: 8px 0;
+}
+
+.mtdpenelitian-caption {
+    font-family: knockout;
+    color: white;
+    flex-direction: column;
+    list-style: none;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+#alatbahan {
+    color: rgb(136, 128, 52);
+}
+
+#langkahkerja {
+    color: rgb(197, 197, 37);
+}
+
+.divideralat {
+    display: flex;
+    gap: 16px;
+}
+
+.oddeven-coloring p:nth-child(odd) {
+    color: bisque;
 }

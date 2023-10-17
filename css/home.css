@@ -59,7 +59,7 @@
 .anggota-img3,
 .anggota-img4 {
     position: relative; /* Make the container position relative */
-    display: inline-block; /* Display as inline block to fit the content */
+    display: flex; /* Display as inline block to fit the content */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -77,8 +77,9 @@
     display: flex;
     font-size: 24px;
     color: #FFFFFF;
-    background: #b8b8b8;
-    text-shadow: 3px 3px 2px rgba(124, 128, 124, 1);
+    background: #AF9353;
+    /* background: #b8b8b8; */
+    text-shadow: 3px 3px 2px #433003;
     font-weight: 600;
 }
 
@@ -120,13 +121,16 @@
 }
 
 .bidang-biologi {
-    color: #28a745;
+    /* color: #28a745; */
+    color: #AF9353;
 }
 
 .bidang-fisika {
-    color: #5bc0de;
+    /* color: #5bc0de; */
+    color: #AF9353;
 }
 
 .bidang-kimia {
-    color: #a36de8;
+    /* color: #a36de8; */
+    color: #AF9353;
 }

@@ -7,10 +7,10 @@
 }
 
 .latar-belakang p {
-    border: 1px black solid;
-    background-color: #202020;
+    background-color: #AF9353;
     padding: 24px 12px;
     text-align: center;
     justify-content: center;
     color: #fff;
+    font-family: knockout;
 }

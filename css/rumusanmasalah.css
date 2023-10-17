@@ -17,32 +17,65 @@
     text-align: center;
 }
 
-.bidang-biologi-rumusan {
-    color: #28a745;
-    text-align: center;
+.bidang-biologi-rumusan,
+.tujuan-penelitian-proyek1 {
+    color: white;
+    text-align: justify;
     width: 250px;
-    background-color: #202020;
+    background-color: #AF9353;
     padding-bottom: 12px;
+    text-shadow: 2px 2px 3px rgba(33, 31, 32, 1);
 }
 
-.bidang-fisika-rumusan {
-    color: #5bc0de;
-    text-align: center;
+.bidang-fisika-rumusan,
+.tujuan-penelitian-proyek2 {
+    color: white;
+    text-align: justify;
     width: 250px;
-    background-color: #202020;
+    background-color: #7E7F4D;
     padding-bottom: 12px;
+    text-shadow: 2px 2px 3px rgba(33, 31, 32, 1);
 }
 
-.bidang-kimia-rumusan {
-    color: #a36de8;
-    text-align: center;
+.bidang-kimia-rumusan,
+.tujuan-penelitian-proyek3 {
+    color: white;
+    text-align: justify;
     width: 250px;
-    background-color: #202020;
+    background-color: #AF9353;
     padding-bottom: 12px;
+    text-shadow: 2px 2px 3px rgba(33, 31, 32, 1);
 }
 
 .bidang-fisika-rumusan li,
 .bidang-kimia-rumusan li,
 .bidang-biologi-rumusan li {
     margin: 8px 0;
+    list-style: none;
+}
+
+.bidang-biologi-rumusan,
+.bidang-fisika-rumusan,
+.bidang-kimia-rumusan,
+.tujuan-penelitian-proyek1,
+.tujuan-penelitian-proyek2,
+.tujuan-penelitian-proyek3 {
+    padding: 2rem 12px;
+}
+
+.bidang-biologi-rumusan h3,
+.bidang-fisika-rumusan h3,
+.bidang-kimia-rumusan h3,
+.tujuan-penelitian-proyek1 h3,
+.tujuan-penelitian-proyek2 h3,
+.tujuan-penelitian-proyek3 h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.tujuan-penelitian-proyek1 li,
+.tujuan-penelitian-proyek2 li,
+.tujuan-penelitian-proyek3 li {
+    margin: 8px 0;
+    list-style: none;
 }
