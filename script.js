@@ -31,6 +31,30 @@ function hamburgerMenu() {
       animation.style.transform = "none";
     }
   }
+  function jenisAnimation1() {
+    var animation = document.getElementById("jenis-dropdown1");
+    if(animation.style.transform === "none") {
+      animation.style.transform = "rotate(-90deg)";
+    } else {
+      animation.style.transform = "none";
+    }
+  }
+  function jenisAnimation2() {
+    var animation = document.getElementById("jenis-dropdown2");
+    if(animation.style.transform === "none") {
+      animation.style.transform = "rotate(-90deg)";
+    } else {
+      animation.style.transform = "none";
+    }
+  }
+  function jenisAnimation3() {
+    var animation = document.getElementById("jenis-dropdown3");
+    if(animation.style.transform === "none") {
+      animation.style.transform = "rotate(-90deg)";
+    } else {
+      animation.style.transform = "none";
+    }
+  }
 
   function aspekDisplay1() {
     var display = document.getElementById("aspek-biologi-caption");
@@ -51,6 +75,33 @@ function hamburgerMenu() {
 
   function aspekDisplay3() {
     var display = document.getElementById("aspek-kimia-caption");
+    if(display.style.display === "none") {
+      display.style.display = "block";
+    } else {
+      display.style.display = "none";
+    }
+  }
+
+  function jenisDisplay1() {
+    var display = document.getElementById("jenispenelitian-p");
+    if(display.style.display === "none") {
+      display.style.display = "block";
+    } else {
+      display.style.display = "none";
+    }
+  }
+
+  function jenisDisplay2() {
+    var display = document.getElementById("waktupenelitian-p");
+    if(display.style.display === "none") {
+      display.style.display = "block";
+    } else {
+      display.style.display = "none";
+    }
+  }
+
+  function jenisDisplay3() {
+    var display = document.getElementById("prosedur-p");
     if(display.style.display === "none") {
       display.style.display = "block";
     } else {

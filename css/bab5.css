@@ -3,12 +3,12 @@
     display: flex;
     justify-content: center;
     gap: 16px; 
+    flex-wrap: wrap;
 }
 
-.kesimpulan-icon i,
-.saran-icon i {
-    font-size: 5rem;
-    color: #AF9353;
+.kesimpulan-content,
+.saran-content {
+    flex: 1;
 }
 
 .kesimpulan-icon,
@@ -31,4 +31,15 @@
 .kesimpulan-content p,
 .saran-content p {
     text-align: center;
+}
+
+.kesimpulan-content h2,
+.saran-content h2 {
+    text-align: center;
+}
+
+.kesimpulan-icon img,
+.saran-icon img {
+    max-width: 78px;
+    width: 100%;
 }

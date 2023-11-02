@@ -1,0 +1,47 @@
+.pembahasan-table, .pembahasan-table td {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+.pembahasan-table td {
+    padding: 8px;
+}
+
+.pembahasan-table {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    border: none;
+    overflow: auto;
+}
+
+.pembahasan-table .tr1,
+.pembahasan-table .tr2 {
+    font-weight: bold;
+}
+
+.align-left {
+    text-align: left;
+}
+
+#pembenihan-tahap,
+#tahap-awal,
+#tahap-tumbuh,
+#tahap-tidaktumbuh {
+    width: 10%;
+}
+
+#perkembangan-daun,
+#perkembangan-batang {
+    width: auto;
+}
+
+#perkembangan-tahap {
+    width: auto;
+}
+
+.italic {
+    font-style: italic;
+}

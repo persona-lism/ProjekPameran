@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
+        <link rel="stylesheet" href="css/mediascreen.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/image.css">
+        <link rel="stylesheet" href="css/content.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/tujuanpenelitian.css">
+        <link rel="stylesheet" href="css/pembahasan.css">
+
+        <script src="https://kit.fontawesome.com/2e9ce271b4.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="navigation-bar">
+                <div class="nav-wrap">
+                    <div class="nav-title">
+                        <img src="asset/petrus.png">
+                    </div>
+                    <div class="nav-title2">
+                        <h1>K4 - 12.MIPA.2</h1>
+                    </div>
+                </div>
+
+                <div>
+                <div class="nav-aboutUs">
+                    <a href="index.html#aboutUs"><h1>About Us</h1></a>
+                </div>
+                <div class="nav-first">
+                    <button class="first-dropbtn" onclick="firstDropdown()">
+                        Bab I
+                    </button>
+                    <div class="first-content" id="nav-first-dropdown">
+                        <a href="latarbelakang.html">A. Latar Belakang</a>
+                        <a href="rumusanmasalah.html">B. Rumusan Masalah</a>
+                        <a href="tujuanpenelitian.html">C. Tujuan Penelitian</a>
+                    </div>
+                </div>
+                <div class="nav-second">
+                    <a href="landasanteori.html"><h1>Bab II</h1></a>
+                </div>
+                <div class="nav-third">
+                    <a href="metodepenelitian.html"><h1>Bab III </h1></a>
+                </div>
+                <div class="nav-fourth">
+                    <button class="fourth-dropbtn" onclick="fourthDropdown()">
+                        Bab IV
+                    </button>
+                    <div class="fourth-content" id="nav-fourth-dropdown">
+                        <a href="hasil.html">A. Hasil Penelitian</a>
+                        <a href="pembahasan.html">B. Pembahasan</a>
+                    </div>
+                </div>
+                <div class="nav-sixth">
+                    <a href="bab5.html"><h1>Bab V</h1></a>
+                </div>
+                <div class="nav-fifth">
+                    <a href="lampiran.html"><h1>Lampiran</h1></a>
+                </div>
+                </div>
+
+                <div id="hamburger-menu" class="hamburger-menu">
+                    <a href="javascript:void(0)" onclick="hamburgerMenu(); hamburgerMenuAnimation()">
+                        <i class="fa-solid fa-bars"></i>    
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div id="hamburger-content" class="hamburger-content">
+            <a href="index.html#aboutUs" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-user-group"></i> Tentang Kami</h2>
+            </a>
+            <a onclick="bab1Dropdown()" href="#" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-one"></i> Bab I</h2>
+            </a>
+
+            <a href="latarbelakang.html" id="bab1-dropdown1">
+                <h3>A. Latar Belakang</h3>
+            </a>
+            <a href="rumusanmasalah.html" id="bab1-dropdown2">
+                <h3>B. Rumusan Masalah</h3>
+            </a>
+            <a href="tujuanpenelitian.html" id="bab1-dropdown3">
+                <h3>C. Tujuan Penelitian</h3>
+            </a>
+
+            <a href="landasanteori.html" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-two"></i> Bab II</h2>
+            </a>
+            <a href="metodepenelitian.html" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-three"></i> Bab III</h2>
+            </a>
+            <a onclick="bab4Dropdown()" href="#" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-four"></i> Bab IV</h2>
+            </a>
+            <a href="hasil.html" id="bab4-dropdown1">
+                <h3>A. Hasil Penelitian</h3>
+            </a>
+            <a href="pembahasan.html" id="bab4-dropdown2">
+                <h3>B. Pembahasan</h3>
+            </a>
+            <a href="bab5.html" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-dice-five"></i> Bab V</h2>
+            </a>
+
+            <a href="lampiran.html" id="hamburger-content-a">
+                <h2><i class="fa-solid fa-file-zipper"></i> Lampiran</h2>
+            </a>
+        </div>
+        <main>
+            <div class="main-img">
+                <img src="asset/hidroponik.jpeg">
+                <div class="main-img-text">
+                    <h1 id="aquaColor">AQUA</h1>
+                    <h1 id="brownColor">MOEA</h1>
+                </div>
+            </div>
+            
+            <div class="tujuanpenelitian-content">
+                <div class="landasanteori">
+                    <h2>Pembahasan</h2>
+                </div>
+                <div class="aspek-biologi">
+                    <div class="aspek-biologi-header" onclick="aspekAnimation1(); aspekDisplay1()">
+                        <h2>Biologi</h2>
+                        <i class="fa-solid fa-chevron-down" id="aspek-dropdown1"></i>
+                    </div>
+                    <div class="aspek-biologi-caption" id="aspek-biologi-caption">
+                        <h3>Tabel 1.1 Pertumbuhan dan Perkembangan Pembenihan Tumbuhan Kangkung Tahap 1, 2, dan 3 selama 1 Minggu 
+                        </h3>
+                        <table class="pembahasan-table">
+                            <tr class="tr1">
+                                <td id="pembenihan-tahap" rowspan="2">Pembenihan tahap</td>
+                                <td colspan="3">Jumlah Benih</td>
+                                <td rowspan="2">Pertumbuhan</td>
+                                <td id="perkembangan-tahap" colspan="2">Perkembangan</td>
+                            </tr>
+                            <tr class="tr2">
+                                <td id="tahap-awal">Awal</td>
+                                <td id="tahap-tumbuh">Tumbuh</td>
+                                <td id="tahap-tidaktumbuh">Tidak tumbuh</td>
+                                <td id="perkembangan-daun">Daun</td>
+                                <td id="perkembangan-batang">Batang</td>
+                            </tr>
+                            <tr class="tr3">
+                                <td>1</td>
+                                <td>5</td>
+                                <td>5</td>
+                                <td>0</td>
+                                <td>16 cm</td>
+                                <td class="align-left">
+                                    Jumlah: 1
+                                    <br>
+                                    Warna: Hijau pucat                              
+                                </td>
+                                <td class="align-left">
+                                    Warna: Putih
+                                    <br>
+                                    Kekuatan: Tidak kokoh
+                                </td>
+                            </tr>
+                            <tr class="tr4">
+                                <td>2</td>
+                                <td>5</td>
+                                <td>1</td>
+                                <td>4</td>
+                                <td>11 cm</td>
+                                <td class="align-left">
+                                    Jumlah: 2
+                                    <br>
+                                    Warna: Hijau segar                              
+                                </td>
+                                <td class="align-left">
+                                    Warna: Hijau
+                                    <br>
+                                    Kekuatan: Kokoh
+                                </td>
+                            </tr>
+                            <tr class="tr5">
+                                <td>3</td>
+                                <td>5</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>13 cm</td>
+                                <td class="align-left">
+                                    Jumlah: 10
+                                    <br>
+                                    Warna: Hijau segar                              
+                                </td>
+                                <td class="align-left">
+                                    Warna: Putih
+                                    <br>
+                                    Kekuatan: Kokoh
+                                </td>
+                            </tr>
+                        </table>
+                        <p>
+                            Berdasarkan tabel 1.1, Pembenihan tahap 1 menunjukkan  pertumbuhan paling tinggi dari 3 tahap pembenihan yang telah dilakukan, yaitu sebesar 16 cm dan pertumbuhan paling rendah dialami oleh pembenihan tahap 2, yaitu sebesar 11 cm. Namun, bibit tahap 1 tidak berkembangan dengan baik. Daun yang tumbuh hanya ada 1 berwarna hijau pucat dan 4 lainnya masih ditutupi dengan kulit benih kangkung. Kangkung tidak berdiri dengan kokoh (<span class="italic">stunting</span>), kurus dan berwarna putih. Sebaliknya pada pembenihan tahap 3, Daun pada tanaman berwarna hijau segar dengan total 10 helai serta batang pada tanamannya  berwarna hijau dan kokoh.
+                            <br><br>
+                            Pertumbuhan dan perkembangan tanaman dapat dipengaruhi oleh tanaman itu sendiri, yaitu faktor genetik. Di dalam sel tumbuhan, terdapat gen yang berperan dalam menentukan fungsi dan sifat dari tumbuhan. Benih yang digunakan pada pembenihan 1 dan 2  berbeda dengan benih pembenihan 3. Setiap bibit memiliki gen yang berbeda. Berdasarkan data, dapat terlihat bahwa pembenihan 3 memiliki bibit yang lebih bagus dibandingkan 1&2. Walaupun tumbuhan kangkung pada pembenihan 1 tumbuh paling tinggi, tapi tidak berkembang dengan baik. 
+                            <br><br>
+                            Tidak hanya masalah genetik, namun pertumbuhan dan perkembangan kangkung ini dipengaruhi oleh faktor eksternal. Pertama, intensitas penyiraman. Setiap pembenihan diberikan perlakuan yang berbeda-beda dimana Selama 1 minggu, peneliti melakukan penyiram sebanyak 2 kali pada pembenihan 1, 3 kali pada pembenihan 2, dan 7 kali pada pembenihan 3.  Air merupakan salah satu kebutuhan utama tanaman. Serapan air dan hara yang besar menyebabkan perkembangan akar sehingga terjadi keseimbangan volume akar dengan pertumbuhan tanaman. Rendahnya jumlah air akan menyebabkan terbatasnya perkembangan akar, sehingga mengganggu penyerapan unsur hara oleh akar tanaman. Intensitas penyiraman pada pembenihan 1 sangat rendah, mengakibatkan perkembangan akar tidak maksimal dimana akar kangkung pendek dan kurus mengakibatkan akar tidak mampu untuk menopang batang tanaman. Daun yang tumbuh juga sangat sedikit. Sedangkan kebutuhan air pada tanaman  pembenihan 2 dan 3 terpenuhi sehingga dapat tumbuh dan berkembang dengan subur. Dengan intensitas penyiraman air yang terpenuhi, perkembangan daun dan batang menjadi semakin maksimal.
+                            <br><br>
+                            Pada pembenihan 1 tidak hanya diberikan air, namun juga diberikan pupuk organik dari cangkang telur. Cangkang telur mengandung kalsium yang dapat menyuburkan tanah dan  meningkatkan pertumbuhan dinding sel tanaman. Namun, pemberian pupuk cangkang telur pada tanaman kangkung ini tidak menunjukkan adanya hasil yang signifikan. Tanaman tetap tidak kokoh dimana batang kangkung tetap jatuh ke samping dan daun berukuran kecil.
+                        </p>
+                    </div>
+                </div>
+                <div class="aspek-fisika" onclick="aspekAnimation2(); aspekDisplay2()">
+                    <div class="aspek-fisika-header">
+                        <h2>Fisika</h2>
+                        <i class="fa-solid fa-chevron-down" id="aspek-dropdown2"></i>
+                    </div>
+                    <div class="aspek-fisika-caption" id="aspek-fisika-caption">
+                        <h3>I. Tensegrity</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="aspek-kimia" onclick="aspekAnimation3(); aspekDisplay3()">
+                    <div class="aspek-kimia-header">
+                        <h2>Kimia</h2>
+                        <i class="fa-solid fa-chevron-down" id="aspek-dropdown3"></i>
+                    </div>
+                    <div class="aspek-kimia-caption" id="aspek-kimia-caption">
+                        <h3>I. Semen</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                Kelompok IV - XII.MIPA.2
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

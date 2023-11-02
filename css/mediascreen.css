@@ -1,4 +1,4 @@
-@media (width <= 600px) {
+@media (width <= 768px) {
     .mtdpenelitian-object {
         flex-direction: column;
     }

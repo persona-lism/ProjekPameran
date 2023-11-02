@@ -1,4 +1,5 @@
-.metodepenelitian-content {
+.metodepenelitian-content,
+.jenispenelitian-content {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -6,12 +7,13 @@
     gap: 16px;
 }
 
+.metodepenelitian,
 .metodepenelitian {
     text-align: center;
 }
 
-
-.mtdpenelitian {
+.mtdpenelitian,
+.jnspenelitian {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -19,16 +21,24 @@
 }
 
 .mtdpenelitian-img img {
-    max-width: 275px;
     width: 100%;
     margin: 0;
+    flex: 1;
+}
+
+.mtdpenelitian-img {
+    text-align: right;
+    align-items: end;
+    justify-content: end;
+    flex: 1;
 }
 
 .mtdpenelitian {
     background-color: #AF9353;
 }
 
-.mtdpenelitian-object {
+.mtdpenelitian-object,
+.jnspenelitian-object {
     display: flex;
     gap: 2rem;
     text-align: left;
@@ -50,15 +60,14 @@
     color: white;
     flex-direction: column;
     list-style: none;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+    text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.4);
+    flex: 2;
 }
 
+
+#langkahkerja,
 #alatbahan {
-    color: rgb(136, 128, 52);
-}
-
-#langkahkerja {
-    color: rgb(197, 197, 37);
+    color: rgb(243, 222, 35);
 }
 
 .divideralat {
@@ -68,4 +77,46 @@
 
 .oddeven-coloring p:nth-child(odd) {
     color: bisque;
+}
+
+
+.jenispenelitian-caption,
+.waktupenelitian-caption,
+.prosedur-caption {
+    text-align: left;
+    padding: 0 12vw;
+}
+
+.jenispenelitian-caption p,
+.waktupenelitian-caption p,
+.prosedur-caption p {
+    margin: 4px 0;
+}
+
+.jenispenelitian-caption h3,
+.waktupenelitian-caption h3,
+.prosedur-caption h3 {
+    margin: 8px 0;
+}
+
+.penelitian-sub {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.jenispenelitian-header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 3px #AF9353 solid;
+}
+
+.jenispenelitian-header i {
+    float: right;
+    transform: rotate(-90deg);
+    transition: .2s;
 }
