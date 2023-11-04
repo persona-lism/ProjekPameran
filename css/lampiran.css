@@ -1,10 +1,16 @@
-.lampiran-content {
+.lampiran-content,
+.daftarpustaka-content {
     margin: 0;
     padding: 12px 10vw;
 }
 
-.lampiran-content h2 {
+.lampiran-content h2,
+.daftarpustaka-content h2 {
     text-align: center;
+}
+
+.daftarpustaka-content p {
+    margin: 8px 0;
 }
 
 .lampiran-showcase {

@@ -55,6 +55,38 @@ function hamburgerMenu() {
       animation.style.transform = "none";
     }
   }
+  function jenisAnimation4() {
+    var animation = document.getElementById("jenis-dropdown4");
+    if(animation.style.transform === "none") {
+      animation.style.transform = "rotate(-90deg)";
+    } else {
+      animation.style.transform = "none";
+    }
+  }
+  function jenisAnimation5() {
+    var animation = document.getElementById("jenis-dropdown5");
+    if(animation.style.transform === "none") {
+      animation.style.transform = "rotate(-90deg)";
+    } else {
+      animation.style.transform = "none";
+    }
+  }
+  function jenisAnimation6() {
+    var animation = document.getElementById("jenis-dropdown6");
+    if(animation.style.transform === "none") {
+      animation.style.transform = "rotate(-90deg)";
+    } else {
+      animation.style.transform = "none";
+    }
+  }
+  function jenisAnimation7() {
+    var animation = document.getElementById("jenis-dropdown7");
+    if(animation.style.transform === "none") {
+      animation.style.transform = "rotate(-90deg)";
+    } else {
+      animation.style.transform = "none";
+    }
+  }
 
   function aspekDisplay1() {
     var display = document.getElementById("aspek-biologi-caption");
@@ -108,6 +140,38 @@ function hamburgerMenu() {
       display.style.display = "none";
     }
   }
+  function jenisDisplay4() {
+    var display = document.getElementById("variabelpenelitian-p");
+    if(display.style.display === "none") {
+      display.style.display = "block";
+    } else {
+      display.style.display = "none";
+    }
+  }
+  function jenisDisplay5() {
+    var display = document.getElementById("teknikpengumpulan-p");
+    if(display.style.display === "none") {
+      display.style.display = "block";
+    } else {
+      display.style.display = "none";
+    }
+  }
+  function jenisDisplay6() {
+    var display = document.getElementById("instrumenpenelitian-p");
+    if(display.style.display === "none") {
+      display.style.display = "block";
+    } else {
+      display.style.display = "none";
+    }
+  }
+  function jenisDisplay7() {
+    var display = document.getElementById("analisisdata-p");
+    if(display.style.display === "none") {
+      display.style.display = "block";
+    } else {
+      display.style.display = "none";
+    }
+  }
 
   function hamburgerMenuAnimation() {
     var animation = document.getElementById("hamburger-menu");
@@ -151,18 +215,15 @@ function hamburgerMenu() {
     }
   }
 
-  function bab4Dropdown() {
-    var menu1 = document.getElementById("bab4-dropdown1");
-    var menu2 = document.getElementById("bab4-dropdown2");
-    var menu3 = document.getElementById("bab4-dropdown3");
+  function bab5Dropdown() {
+    var menu1 = document.getElementById("bab5-dropdown1");
+    var menu2 = document.getElementById("bab5-dropdown2");
     if (menu1.style.display === "flex") {
       menu1.style.display = "none";
       menu2.style.display = "none";
-      menu3.style.display = "none";
     } else {
       menu1.style.display = "flex";
       menu2.style.display = "flex";
-      menu3.style.display = "flex";
     }
   }
 

@@ -1,13 +1,16 @@
-.pembahasan-table, .pembahasan-table td {
+.pembahasan-table, .pembahasan-table td,
+.semen-table, .semen-table td {
     border: 1px black solid;
     border-collapse: collapse;
 }
 
-.pembahasan-table td {
+.pembahasan-table td,
+.semen-table td {
     padding: 8px;
 }
 
-.pembahasan-table {
+.pembahasan-table,
+.semen-table {
     max-width: 100%;
     height: auto;
     text-align: center;
@@ -18,7 +21,8 @@
 }
 
 .pembahasan-table .tr1,
-.pembahasan-table .tr2 {
+.pembahasan-table .tr2,
+.semen-table .tr1 {
     font-weight: bold;
 }
 
