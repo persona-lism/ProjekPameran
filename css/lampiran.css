@@ -6,15 +6,18 @@
 
 .daftarpustaka-content {
     padding: 12px 12vw;
+    word-wrap: break-word;
 }
 
 .lampiran-content h2,
 .daftarpustaka-content h2 {
     text-align: center;
+    word-wrap: break-word;
 }
 
 .daftarpustaka-content p {
     margin: 8px 0;
+    word-wrap: break-word;
 }
 
 .lampiran-showcase {
