@@ -4,11 +4,17 @@
     justify-content: center;
     gap: 16px; 
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .kesimpulan-content,
 .saran-content {
     flex: 1;
+}
+
+.kesimpulan-saran h3 {
+    text-align: center;
+    color: #AF9353;
 }
 
 .kesimpulan-icon,
@@ -42,4 +48,9 @@
 .saran-icon img {
     max-width: 78px;
     width: 100%;
+}
+
+.kesimpulan-caption p,
+.saran-content p {
+    font-family: 'Josefin Sans';
 }
