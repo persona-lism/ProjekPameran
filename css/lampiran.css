@@ -1,7 +1,7 @@
 .lampiran-content,
 .daftarpustaka-content {
     margin: 0;
-    padding: 12px 10vw;
+    padding: 12px;
 }
 
 .lampiran-content h2,
@@ -19,11 +19,16 @@
     align-items: center;
     justify-content: space-between;
     gap: 0 24px;
+    height: auto;
+    width: auto;
 }
 
 .lampiran-1,
-.lampiran-2,
 .lampiran-3 {
+    flex: 1;
+}
+
+.lampiran-2 {
     flex: 1;
 }
 
@@ -59,7 +64,15 @@
 .lampiran-2 img {
     height: 100%;
     width: 100%;
-    max-width: 300px;
+    min-width: 200px;
+    max-width: 450px;
+}
+
+.lampiran-2 video {
+    height: 100%;
+    width: 100%;
+    min-width: 200px;
+    max-width: 450px;
 }
 
 .fade-animation {
