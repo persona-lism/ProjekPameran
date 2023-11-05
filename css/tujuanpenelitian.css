@@ -10,6 +10,12 @@
     text-align: center;
 }
 
+.tujuan-penelitian-proyek1,
+.tujuan-penelitian-proyek2,
+.tujuan-penelitian-proyek3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .aspek-biologi h2,
 .aspek-fisika h2,
 .aspek-kimia h2 {
