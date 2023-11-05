@@ -22,6 +22,9 @@
     .nav-title2 h1 {
         display: flex;
     }
+    .nav-title img {
+        margin-left: 0;
+    }
 }
 
 @media (width >= 1029px) {
@@ -33,6 +36,9 @@
     }
     .nav-title2 h1 {
         display: none;
+    }
+    .nav-title img {
+        margin-left: 2rem;
     }
 }
 

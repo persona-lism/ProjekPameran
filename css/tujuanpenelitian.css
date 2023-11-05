@@ -87,4 +87,18 @@
 
 .kotak-proyek {
     color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tujuan-penelitian-proyek1 li,
+.tujuan-penelitian-proyek2 li,
+.tujuan-penelitian-proyek3 li {
+    margin: 8px 0;
+}
+
+.tujuan-penelitian-proyek1 ol,
+.tujuan-penelitian-proyek2 ol,
+.tujuan-penelitian-proyek3 ol {
+    padding: 0 2.5rem;
 }
