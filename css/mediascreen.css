@@ -2,6 +2,18 @@
     .mtdpenelitian-object {
         flex-direction: column;
     }
+    .nav-aboutUs *,
+    .nav-first *,
+    .nav-second *,
+    .nav-third *,
+    .nav-fourth *,
+    .nav-fifth *,
+    .nav-sixth * {
+        display: none;
+    }
+    .hamburger-menu {
+        display: flex;
+    }
 }
 @media (width <= 1028px) {
     .nav-aboutUs *,
