@@ -15,8 +15,9 @@
     flex-wrap: nowrap;
     display: flex;
     max-width: 100%;
-    letter-spacing: 0.25vw;
+    letter-spacing: 0.3vw;
     font-family: 'Oswald', serif;
+    font-weight: bold;
 }
 
 .main-img {

@@ -56,7 +56,8 @@
 }
 
 .mtdpenelitian-caption {
-    font-family: knockout;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
     color: white;
     flex-direction: column;
     list-style: none;

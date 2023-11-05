@@ -23,16 +23,6 @@ body {
     display: block;
 }
 
-@font-face {
-    font-family: knockout;
-    src: url(/asset/knockout.otf);
-}
-
-@font-face {
-    font-family: oswald;
-    src: url(/asset/oswald-bold.ttf);
-}
-
 .footer {
     height: 45px;
     background-color: #AF9353;
