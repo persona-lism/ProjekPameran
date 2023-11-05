@@ -1,4 +1,4 @@
-@media (width <= 768px) {
+@media only screen and (width <= 768px) {
     .mtdpenelitian-object {
         flex-direction: column;
     }
@@ -15,7 +15,7 @@
         display: flex;
     }
 }
-@media (width <= 1028px) {
+@media only screen and (width <= 1028px) {
     .nav-aboutUs *,
     .nav-first *,
     .nav-second *,
@@ -39,7 +39,7 @@
     }
 }
 
-@media (width >= 1029px) {
+@media only screen and (width >= 1029px) {
     .hamburger-menu {
         display: none;
     }
@@ -51,6 +51,15 @@
     }
     .nav-title img {
         margin-left: 2rem;
+    }
+    .nav-aboutUs *,
+    .nav-first *,
+    .nav-second *,
+    .nav-third *,
+    .nav-fourth *,
+    .nav-fifth *,
+    .nav-sixth * {
+        display: flex;
     }
 }
 
