@@ -54,3 +54,8 @@
 .saran-content p {
     font-family: 'Josefin Sans';
 }
+
+.saran-content li {
+    font-family: 'Josefin Sans';
+    text-align: justify;
+}
