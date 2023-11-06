@@ -2,27 +2,15 @@
     .mtdpenelitian-object {
         flex-direction: column;
     }
-    .nav-aboutUs *,
-    .nav-first *,
-    .nav-second *,
-    .nav-third *,
-    .nav-fourth *,
-    .nav-fifth *,
-    .nav-sixth * {
-        display: none;
-    }
-    .hamburger-menu {
-        display: flex;
-    }
 }
 @media only screen and (width <= 1028px) {
-    .nav-aboutUs *,
-    .nav-first *,
-    .nav-second *,
-    .nav-third *,
-    .nav-fourth *,
-    .nav-fifth *,
-    .nav-sixth * {
+    .nav-aboutUs,
+    .nav-first,
+    .nav-second,
+    .nav-third,
+    .nav-fourth,
+    .nav-fifth,
+    .nav-sixth {
         display: none;
     }
     .hamburger-menu {
@@ -51,15 +39,6 @@
     }
     .nav-title img {
         margin-left: 2rem;
-    }
-    .nav-aboutUs *,
-    .nav-first *,
-    .nav-second *,
-    .nav-third *,
-    .nav-fourth *,
-    .nav-fifth *,
-    .nav-sixth * {
-        display: flex;
     }
 }
 
