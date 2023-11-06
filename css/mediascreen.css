@@ -4,13 +4,7 @@
     }
 }
 @media only screen and (width <= 1028px) {
-    .nav-aboutUs,
-    .nav-first,
-    .nav-second,
-    .nav-third,
-    .nav-fourth,
-    .nav-fifth,
-    .nav-sixth {
+    .disappear {
         display: none;
     }
     .hamburger-menu {
