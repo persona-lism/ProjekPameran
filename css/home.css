@@ -135,7 +135,7 @@
     color: #AF9353;
 }
 
-.bell {
+/* .bell {
     max-width: 40px;
     max-height: 40px;
     width: 100%;
@@ -280,16 +280,15 @@
 }
 
 #popup h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden;
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    letter-spacing: .15em;
     animation: 
       typing 8s steps(12, end) infinite,
       blink-caret .4s step-end infinite;
   }
   
-  /* The typing effect */
   @keyframes typing {
     0% { width: 0 }
     10% { width: 0% }
@@ -298,8 +297,7 @@
     100% { width: 0%;}
   }
   
-  /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: orange; }
-  }
+  } */
