@@ -4,9 +4,6 @@
     }
 }
 @media only screen and (width <= 1028px) {
-    .disappear {
-        display: none;
-    }
     .hamburger-menu {
         display: flex;
     }
@@ -19,6 +16,9 @@
     .nav-title img {
         margin-left: 0;
     }
+    /* .disappear {
+       display: none !important;
+    } */
 }
 
 @media only screen and (width >= 1029px) {
